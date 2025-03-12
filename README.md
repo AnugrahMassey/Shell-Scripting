@@ -8,14 +8,17 @@ Each script is documented with its purpose, usage, and how it works.
 
 ## 📌 **What’s Included?**
 ✅ **Automation Scripts**
-- 🧹 `cleanup_logs.sh` - Automatically removes old log files.
-- 📦 `backup.sh` - Creates automatic backups.
-- ⏳ `cron_scheduler.sh` - Sets up cron jobs.
-- 🔒 `set_permissions.sh` - Sets correct file permissions.
-- 👤 `user_mgmt.sh` - Creates users and manages groups.
-- 🔑 `setup_ssh.sh` - Configures SSH keys for secure login.
-- 📊 `disk_usage.sh` - Monitors disk space.
-- 🔄 `uptime_check.sh` - Checks server uptime.
+- 🧹 `cleanup_logs.sh` - Automatically removes old log files.  
+- 📦 `backup.sh` - Creates automatic backups.  
+- ⏳ `cron_scheduler.sh` - Sets up cron jobs.  
+- 🔒 `set_permissions.sh` - Sets correct file permissions.  
+- 👤 `user_mgmt.sh` - Creates users and manages groups.  
+- 🔑 `setup_ssh.sh` - Configures SSH keys for secure login.  
+- 📊 `disk_usage.sh` - Monitors disk space.  
+- 🔄 `uptime_check.sh` - Checks server uptime.  
+- 📈 `monitor_resources.sh` - Tracks real-time CPU & RAM usage.  
+- ⚙️ `process_manager.sh` - Lists and manages running processes.  
+- 📜 `log_checker.sh` - Scans logs for errors & monitors disk space.  
 
 ---
 
