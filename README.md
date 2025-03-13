@@ -19,6 +19,10 @@ Each script is documented with its purpose, usage, and how it works.
 - 📈 `monitor_resources.sh` - Tracks real-time CPU & RAM usage.  
 - ⚙️ `process_manager.sh` - Lists and manages running processes.  
 - 📜 `log_checker.sh` - Scans logs for errors & monitors disk space.  
+- 🏁 `hello.sh` - Your first Bash script.  
+- 🔤 `variables.sh` - Demonstrates variables in Bash.  
+- 🔀 `conditions.sh` - If-else conditions example.  
+- 🔄 `loops.sh` - Simple for-loop example.  
 
 ---
 
