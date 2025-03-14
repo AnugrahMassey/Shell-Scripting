@@ -23,6 +23,9 @@ Each script is documented with its purpose, usage, and how it works.
 - 🔤 `variables.sh` - Demonstrates variables in Bash.  
 - 🔀 `conditions.sh` - If-else conditions example.  
 - 🔄 `loops.sh` - Simple for-loop example.  
+- 🔹 `functions.sh` - Demonstrates Bash functions.  
+- 🚨 `error_handling.sh` - Error handling using trap.  
+- 📝 `logging.sh` - Logs script execution details.  
 
 ---
 
