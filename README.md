@@ -6,31 +6,68 @@ Each script is documented with its purpose, usage, and how it works.
 
 ---
 
-## 📌 **What’s Included?**
-✅ **Automation Scripts**
-- 🧹 `cleanup_logs.sh` - Automatically removes old log files.  
-- 📦 `backup.sh` - Creates automatic backups.  
-- ⏳ `cron_scheduler.sh` - Sets up cron jobs.  
-- 🔒 `set_permissions.sh` - Sets correct file permissions.  
-- 👤 `user_mgmt.sh` - Creates users and manages groups.  
-- 🔑 `setup_ssh.sh` - Configures SSH keys for secure login.  
-- 📊 `disk_usage.sh` - Monitors disk space.  
-- 🔄 `uptime_check.sh` - Checks server uptime.  
-- 📈 `monitor_resources.sh` - Tracks real-time CPU & RAM usage.  
-- ⚙️ `process_manager.sh` - Lists and manages running processes.  
-- 📜 `log_checker.sh` - Scans logs for errors & monitors disk space.  
-- 🏁 `hello.sh` - Your first Bash script.  
-- 🔤 `variables.sh` - Demonstrates variables in Bash.  
-- 🔀 `conditions.sh` - If-else conditions example.  
-- 🔄 `loops.sh` - Simple for-loop example.  
-- 🔹 `functions.sh` - Demonstrates Bash functions.  
-- 🚨 `error_handling.sh` - Error handling using trap.  
-- 📝 `logging.sh` - Logs script execution details.  
+## **📂 Script Categories & Descriptions**  
+
+### **🧹 System Maintenance & Cleanup**  
+- 🧹 **`cleanup_logs.sh`** – Automatically removes old log files to free up space.  
+- 📦 **`backup.sh`** – Creates automatic backups of important files or directories.  
+- ⏳ **`cron_scheduler.sh`** – Schedules and manages cron jobs for automation.  
+- 🔍 **`find_large_files.sh`** – Finds and lists files larger than **100MB**.  
+
+### **📊 Monitoring & Performance**  
+- 📊 **`disk_usage.sh`** – Monitors disk space usage.  
+- 🔄 **`uptime_check.sh`** – Checks server uptime and system load.  
+- 🚀 **`monitor_resources.sh`** – Monitors **CPU, RAM, and active processes**.  
+- ⚙️ **`system_health.sh`** – Provides a **detailed system health report** (CPU, RAM, Disk, Processes).  
+
+### **🔧 System & User Management**  
+- 🔒 **`set_permissions.sh`** – Ensures correct file and folder permissions.  
+- 👤 **`user_mgmt.sh`** – Creates users and manages groups efficiently.  
+- 🔑 **`setup_ssh.sh`** – Configures SSH keys for secure remote access.  
+- 🔄 **`auto_restart.sh`** – Automatically restarts critical services if they crash.  
+
+### **📜 Bash Scripting Basics**  
+- 👋 **`hello.sh`** – My first Bash script.  
+- 🔢 **`variables.sh`** – Demonstrates variables in Bash.  
+- 🔀 **`conditions.sh`** – Uses if-else conditions in Bash.  
+- 🔁 **`loops.sh`** – Explores different looping mechanisms.  
+- 🏗 **`functions.sh`** – Defines and calls Bash functions.  
+
+### **⚠️ Error Handling & Logging**  
+- 🚨 **`error_handling.sh`** – Implements error handling using `trap`.  
+- 📝 **`logging.sh`** – Logs script execution details for debugging.  
+- 📄 **`log_checker.sh`** – Checks logs and disk space usage.  
 
 ---
 
-## 🚀 **How to Use These Scripts**
-1️⃣ Clone this repository  
+## **🚀 How to Use the Scripts**  
+
+### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/AnugrahMassey/shell-scripting.git
+git clone https://github.com/AnugrahMassey/Shell-Scripting.git
 cd shell-scripting
+```
+
+### **2️⃣ Make Scripts Executable**  
+```bash
+chmod +x script_name.sh
+```
+
+### **3️⃣ Run a Script**  
+```bash
+./script_name.sh
+```
+
+---
+
+## **📢 Contributions & Feedback**  
+📌 If you have script suggestions or improvements, feel free to create a **pull request** or open an **issue**! 😊  
+
+📌 **Follow my DevOps journey** as I learn and document my progress in this repository.  
+
+---
+
+### **📜 License**  
+📜 This project is open-source under the **MIT License** – feel free to use and modify the scripts!  
+
+---
