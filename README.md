@@ -6,37 +6,34 @@ Each script is documented with its purpose, usage, and how it works.
 
 ---
 
-## **📂 Script Categories & Descriptions**  
+## 📂 Scripts Included
 
-### **🧹 System Maintenance & Cleanup**  
-- 🧹 **`cleanup_logs.sh`** – Automatically removes old log files to free up space.  
-- 📦 **`backup.sh`** – Creates automatic backups of important files or directories.  
-- ⏳ **`cron_scheduler.sh`** – Schedules and manages cron jobs for automation.  
-- 🔍 **`find_large_files.sh`** – Finds and lists files larger than **100MB**.  
+### 🧹 Log Management & Automation
+- 🔹 `cleanup_logs.sh` – Automatically removes old log files.
+- 🔹 `backup.sh` – Creates automatic backups.
+- 🔹 `cron_scheduler.sh` – Sets up cron jobs.
 
-### **📊 Monitoring & Performance**  
-- 📊 **`disk_usage.sh`** – Monitors disk space usage.  
-- 🔄 **`uptime_check.sh`** – Checks server uptime and system load.  
-- 🚀 **`monitor_resources.sh`** – Monitors **CPU, RAM, and active processes**.  
-- ⚙️ **`system_health.sh`** – Provides a **detailed system health report** (CPU, RAM, Disk, Processes).  
+### 🔐 User & System Management
+- 🔹 `set_permissions.sh` – Sets correct file permissions.
+- 🔹 `user_mgmt.sh` – Creates users and manages groups.
+- 🔹 `setup_ssh.sh` – Configures SSH keys for secure login.
 
-### **🔧 System & User Management**  
-- 🔒 **`set_permissions.sh`** – Ensures correct file and folder permissions.  
-- 👤 **`user_mgmt.sh`** – Creates users and manages groups efficiently.  
-- 🔑 **`setup_ssh.sh`** – Configures SSH keys for secure remote access.  
-- 🔄 **`auto_restart.sh`** – Automatically restarts critical services if they crash.  
+### 📊 System Monitoring
+- 🔹 `disk_usage.sh` – Monitors disk space.
+- 🔹 `uptime_check.sh` – Checks server uptime.
+- 🔹 `monitor_resources.sh` – Monitors CPU and RAM usage.
+- 🔹 `process_manager.sh` – Manages system processes.
+- 🔹 `log_checker.sh` – Checks logs and disk space.
 
-### **📜 Bash Scripting Basics**  
-- 👋 **`hello.sh`** – My first Bash script.  
-- 🔢 **`variables.sh`** – Demonstrates variables in Bash.  
-- 🔀 **`conditions.sh`** – Uses if-else conditions in Bash.  
-- 🔁 **`loops.sh`** – Explores different looping mechanisms.  
-- 🏗 **`functions.sh`** – Defines and calls Bash functions.  
+### 🎯 Shell Scripting Basics
+- 🔹 `hello.sh` – Your first Bash script.
+- 🔹 `variables.sh` – Demonstrates variable usage.
+- 🔹 `conditions.sh` – If-else conditions in Bash.
+- 🔹 `loops.sh` – Basic loops in Bash.
+- 🔹 `functions.sh` – Demonstrates functions in Bash.
 
-### **⚠️ Error Handling & Logging**  
-- 🚨 **`error_handling.sh`** – Implements error handling using `trap`.  
-- 📝 **`logging.sh`** – Logs script execution details for debugging.  
-- 📄 **`log_checker.sh`** – Checks logs and disk space usage.  
+### ⚠️ **Error Handling & Advanced Functions**
+- 🔧 **`functions_error_handling.sh`** – Demonstrates Bash functions, logging, and error handling using `trap`.
 
 ---
 
