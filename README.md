@@ -22,7 +22,7 @@ Each script is documented with its purpose, usage, and how it works.
 - 🔹 `disk_usage.sh` – Monitors disk space.
 - 🔹 `uptime_check.sh` – Checks server uptime.
 - 🔹 `monitor_resources.sh` – Monitors CPU and RAM usage.
-- 🔹 `process_manager.sh` – Manages system processes.
+- 🔹 `process_manager.sh` – Manage system processes (view, search, and kill)
 - 🔹 `log_checker.sh` – Checks logs and disk space.
 
 ### 🎯 **Shell Scripting Basics**
