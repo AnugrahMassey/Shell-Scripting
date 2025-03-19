@@ -8,35 +8,39 @@ Each script is documented with its purpose, usage, and how it works.
 
 ## 📂 Scripts Included
 
-### 🧹 **Log Management & Automation**
-- 🔹 `cleanup_logs.sh` – Automatically removes old log files.
-- 🔹 `backup.sh` – Creates automatic backups.
-- 🔹 `cron_scheduler.sh` – Sets up cron jobs.
+### 🧹 **File Management & Cleanup**
 
-### 🔐 **User & System Management**
-- 🔹 `set_permissions.sh` – Sets correct file permissions.
-- 🔹 `user_mgmt.sh` – Creates users and manages groups.
-- 🔹 `setup_ssh.sh` – Configures SSH keys for secure login.
+- `cleanup_logs.sh` – Automatically removes old log files.
+- `backup.sh` – Creates automatic backups.
+- `file_manipulation.sh` – Demonstrates `sed` and `awk` for file manipulation.
 
-### 📊 **System Monitoring**
-- 🔹 `disk_usage.sh` – Monitors disk space.
-- 🔹 `uptime_check.sh` – Checks server uptime.
-- 🔹 `monitor_resources.sh` – Monitors CPU and RAM usage.
-- 🔹 `process_manager.sh` – Manage system processes (view, search, and kill)
-- 🔹 `log_checker.sh` – Checks logs and disk space.
+### ⏳ **Scheduling & Automation**
 
-### 🎯 **Shell Scripting Basics**
-- 🔹 `hello.sh` – Your first Bash script.
-- 🔹 `variables.sh` – Demonstrates variable usage.
-- 🔹 `conditions.sh` – If-else conditions in Bash.
-- 🔹 `loops.sh` – Basic loops in Bash.
-- 🔹 `functions.sh` – Demonstrates functions in Bash.
+- `cron_scheduler.sh` – Sets up and manages cron jobs.
+- `set_permissions.sh` – Sets correct file permissions.
+- `user_mgmt.sh` – Creates users and manages groups.
+- `setup_ssh.sh` – Configures SSH keys for secure login.
 
-### ⚠️ **Error Handling & Advanced Functions**
-- 🔧 `functions_error_handling.sh` – Demonstrates Bash functions, logging, and error handling using `trap`.
+### 📊 **Monitoring & Management**
 
-### 📝 **File Manipulation & Text Processing**
-- 📝 `file_manipulation.sh` – Uses `sed` and `awk` for file editing and text extraction.
+- `disk_usage.sh` – Monitors disk space usage.
+- `uptime_check.sh` – Checks server uptime.
+- `monitor_resources.sh` – Monitors CPU and RAM usage.
+- `process_manager.sh` – Manages system processes (view, search, kill).
+
+### 🛠️ **Development Practice**
+
+- `hello.sh` – Your first Bash script.
+- `variables.sh` – Demonstrates the use of variables.
+- `conditions.sh` – Uses if-else conditions.
+- `loops.sh` – Simple for and while loop examples.
+- `functions.sh` – Demonstrates Bash functions.
+- `error_handling.sh` – Error management using traps.
+- `logging.sh` – Logs script execution for better debugging.
+
+### 🌐 **Networking & Security**
+
+- `networking_basics.sh` – Perform basic networking tasks like checking IP, pinging, and DNS lookups.
 
 ---
 
@@ -71,3 +75,5 @@ chmod +x script_name.sh
 📜 This project is open-source under the **MIT License** – feel free to use and modify the scripts!  
 
 ---
+
+Happy scripting! 😊
