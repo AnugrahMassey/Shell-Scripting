@@ -27,6 +27,7 @@ Each script is documented with its purpose, usage, and how it works.
 - `uptime_check.sh` – Checks server uptime.
 - `monitor_resources.sh` – Monitors CPU and RAM usage.
 - `process_manager.sh` – Manages system processes (view, search, kill).
+- `resource_alert.sh` – Monitors CPU, RAM, and Disk usage. Sends alerts if the usage exceeds specified thresholds.
 
 ### 🛠️ **Development Practice**
 
