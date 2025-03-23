@@ -41,8 +41,9 @@ Each script is documented with its purpose, usage, and how it works.
 - `logging.sh` – Logs script execution for better debugging.
 
 ### 🌐 **Networking & Security**
-
 - `networking_basics.sh` – Perform basic networking tasks like checking IP, pinging, and DNS lookups.
+- `dns_checker.sh` – Check DNS resolution using nslookup and dig.
+- `update_hostname.sh` – Update system hostname both temporarily and permanently.
 
 ---
 
