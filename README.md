@@ -44,7 +44,7 @@ Each script is documented with its purpose, usage, and how it works.
 - `networking_basics.sh` – Perform basic networking tasks like checking IP, pinging, and DNS lookups.
 - `dns_checker.sh` – Check DNS resolution using nslookup and dig.
 - `update_hostname.sh` – Update system hostname both temporarily and permanently.
-
+- `firewall_manager.sh` – Automates firewall rule management using iptables.
 ---
 
 ## **🚀 How to Use the Scripts**  
