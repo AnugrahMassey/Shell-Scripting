@@ -45,6 +45,7 @@ Each script is documented with its purpose, usage, and how it works.
 - `dns_checker.sh` – Check DNS resolution using nslookup and dig.
 - `update_hostname.sh` – Update system hostname both temporarily and permanently.
 - `firewall_manager.sh` – Automates firewall rule management using iptables.
+- `ssh_manager.sh` – Automates SSH management tasks like server connection, SSH key copying, and connection testing.
 ---
 
 ## **🚀 How to Use the Scripts**  
